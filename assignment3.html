@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>card</title>
+	<link rel="stylesheet" type="text/css" href="assignment 3.css">
+	<script type="text/javascript">
+		myFunction();
+		function myFunction(){
+			alert("Welcome to my page");
+		}
+	</script>
+	<script>
+		function funcb(){
+			document.getElementById("demo").innerHTML = "I am also table tennis Player";
+		}
+	</script>
+</head>
+<body>
+	<div class = "container">
+		<div class ="card">
+			<div class = "face face1">
+				<div class = "content">
+					<img src="me.jpg">
+					<h3>Keya Bhavsar</h3>
+				</div>
+			</div>
+			<div class = "face face2">
+				<div class = "content">
+					<p>I am an enthusiastic learner interested in making creative websites</p>
+					<p id="demo"><button onclick="funcb()">Read more</button>
+				</div>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>
